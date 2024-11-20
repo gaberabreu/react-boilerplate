@@ -6,7 +6,7 @@ import prettierPlugin from "eslint-plugin-prettier/recommended";
 import tseslint from "typescript-eslint";
 
 export default tseslint.config(
-  { ignores: ["dist", "node_modules", "coverage"] },
+  { ignores: ["dist", "node_modules", "coverage", "routeTree.gen.ts"] },
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended, prettierPlugin],
     files: ["**/*.{ts,tsx}"],

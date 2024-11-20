@@ -29,7 +29,13 @@ describe("SideBar", () => {
     expect(getByText("Profile").parentElement?.parentElement).toHaveAttribute("href", "/profile");
 
     fireEvent.click(getByText("Management"));
-    expect(getByText("Users").parentElement?.parentElement).toHaveAttribute("href", "/management/users");
-    expect(getByText("Roles").parentElement?.parentElement).toHaveAttribute("href", "/management/roles");
+    expect(getByText("Users").parentElement?.parentElement).toHaveAttribute(
+      "href",
+      "/management/users"
+    );
+    expect(getByText("Roles").parentElement?.parentElement).toHaveAttribute(
+      "href",
+      "/management/roles"
+    );
   });
 });
