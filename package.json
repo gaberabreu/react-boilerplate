@@ -18,14 +18,16 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@gaberabreu/react-mui-sidebar": "^0.0.1-beta8",
+    "@gaberabreu/react-mui-sidebar": "^0.0.1-beta9",
     "@mui/icons-material": "^6.1.7",
     "@mui/material": "^6.1.7",
+    "@tanstack/react-router": "^1.82.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
+    "@tanstack/router-plugin": "^1.81.9",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.1",
     "@types/react": "^18.3.12",
