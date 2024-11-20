@@ -5,8 +5,8 @@ import { MenuSubHeader, SideBar as MySideBar, SubMenu } from "@gaberabreu/react-
 import Toolbar from "@mui/material/Toolbar";
 import List from "@mui/material/List";
 
-import DashboardIcon from "@mui/icons-material/Dashboard";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import DashboardIcon from "@mui/icons-material/Dashboard";
 import SettingsIcon from "@mui/icons-material/Settings";
 import PeopleIcon from "@mui/icons-material/People";
 import SecurityIcon from "@mui/icons-material/Security";

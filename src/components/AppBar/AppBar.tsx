@@ -26,6 +26,7 @@ const AppBar: FC<AppBarProps> = ({ open, toggle }) => {
     <StyledAppBar position="sticky">
       <Toolbar>
         <IconButton
+          aria-label="Toggle SideBar"
           color="inherit"
           edge="start"
           sx={{ mr: 5 }}
